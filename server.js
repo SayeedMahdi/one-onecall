@@ -26,7 +26,7 @@ var https = require('https');
 
 var argv = minimist(process.argv.slice(2), {
   default: {
-      as_uri: "https://localhost:5000/",
+      as_uri: "https://vitamoveapp.com",
       ws_uri: "ws://localhost:8888/kurento"
   }
 });
